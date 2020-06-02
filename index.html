@@ -5,43 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Evendos DOM</title>
-    <style>
-        div#area{
-            font: normal 15pt Arial;
-            background: rgb(78, 146, 60);
-            color: white;
-            width: 200px;
-            height: 200px;
-            line-height: 200px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <div id="area" >
-        Interaja...
-    </div>
-
-    <script>
-        var a = window.document.getElementById('area')
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseenter', entrar)
-        a.addEventListener('mouseout', sair)
-
-        function entrar(){
-            a.innerText= 'Entrou!'
-            a.style.background= 'Green'
-        }
-
-        function clicar() {
-            a.innerText = 'Clicou!'
-            a.style.background= 'Red'
-        }
-
-        function sair(){
-            a.innerText='Saiu!'
-        }
-    </script>
-
 </body>
 </html>
